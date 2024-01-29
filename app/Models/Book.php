@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Models\User;
+use App\Models\Author;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
@@ -14,13 +15,15 @@ class Book extends Model
         'title',
         'author_id',
         'isbn_code',
+        'added_at',
+        'deleted_at',
         'plot',
         'readings',
     ];
 
-    public function users()
+    public function user()
     {
-        return $this->belongsToMany(User::class);
+        return $this->belongsTo(User::class);
     }
 
     public function author()
