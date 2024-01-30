@@ -12,9 +12,9 @@ return new class extends Migration
             $table->id();
             $table->string('title', 80)->nullable(false);
             $table->foreignId('author_id')->constrained()->cascadeOnDelete();
-            $table->decimal('isbn_code', 13, 9)->unique()->nullable(false);
+            $table->char('isbn_code', 17)->unique()->nullable(false);
             $table->dateTime('added_at');
-            $table->dateTime('deleted_at')->default(null);
+            $table->dateTime('deleted_at')->nullable();
             $table->text('plot');
             $table->smallInteger('readings');
             $table->timestamps();
