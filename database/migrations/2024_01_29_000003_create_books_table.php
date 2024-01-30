@@ -13,8 +13,6 @@ return new class extends Migration
             $table->string('title', 80)->nullable(false);
             $table->foreignId('author_id')->constrained()->cascadeOnDelete();
             $table->char('isbn_code', 17)->unique()->nullable(false);
-            $table->dateTime('added_at');
-            $table->dateTime('deleted_at')->nullable();
             $table->text('plot');
             $table->smallInteger('readings');
             $table->timestamps();
