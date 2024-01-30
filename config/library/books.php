@@ -5,6 +5,7 @@ return [
         'id' => '1',
         'title' => 'Crime and Punishment',
         'author_id' => '1',
+        'isbn_code' => '9780486415871',
         'added_at' => '2024-01-30 09:00:00',
         'deleted_at' => null,
         'plot' => 'Raskolnikov, a former student, lives in poverty and chaos in St. Petersburg. He decides—through contradictory theories, including utilitarian morality and the belief that extraordinary people have the “right to transgress”—to murder Alyona Ivanovna, an elderly pawnbroker. Alyona’s half sister, Lizaveta, arrives while he is rifling through Alyona’s possessions, and he kills her too. In the meantime he befriends an alcoholic man, Marmeladov, whose daughter Sonya has been forced into prostitution to support the family. An old friend, Razumikhin, also enters his life, concerned by his aberrant behaviour. In addition, Raskolnikov’s sister, Dunya, who has left her job as a governess for Svidrigailov because of his improper advances toward her, arrives in St. Petersburg with their mother. Dunya intends to marry a man named Luzhin in order to improve their financial and social position.
@@ -16,6 +17,7 @@ return [
         'id' => '2',
         'title' => 'Demons',
         'author_id' => '1',
+        'isbn_code' => '9780679423140',
         'added_at' => '2024-01-30 09:00:00',
         'deleted_at' => null,
         'plot' => 'The Possessed, novel by Fyodor Dostoyevsky, published in Russian in 1872 as Besy. The book, also known in English as The Devils and The Demons, is a reflection of Dostoyevsky’s belief that revolutionists possessed the soul of Russia and that, unless exorcised by a renewed faith in Orthodox Christianity and a pure nationalism, they would drive his country over the precipice. It has become a classic of Russian literature for its searing examination of human evil.
@@ -26,6 +28,7 @@ return [
         'id' => '3',
         'title' => 'One Hundred Years of Solitude',
         'author_id' => '2',
+        'isbn_code' => '9780141184999',
         'added_at' => '2024-01-30 09:00:00',
         'deleted_at' => null,
         'plot' => 'One Hundred Years of Solitude is the story of seven generations of the Buendía Family in the town of Macondo. The founding patriarch of Macondo, José Arcadio Buendía, and Úrsula Iguarán, his wife (and first cousin), leave their hometown in Riohacha, Colombia, after José Arcadio kills Prudencio Aguilar after a cockfight for suggesting José Arcadio was impotent. One night of their emigration journey, while camping on a riverbank, José Arcadio dreams of "Macondo", a city of mirrors that reflected the world in and about it. Upon awakening, he decides to establish Macondo at the riverside; after days of wandering the jungle, his founding of Macondo is utopic.
@@ -39,6 +42,7 @@ return [
         'id' => '4',
         'title' => 'Love in the Time of Cholera',
         'author_id' => '2',
+        'isbn_code' => '9780394561615',
         'added_at' => '2024-01-30 09:00:00',
         'deleted_at' => null,
         'plot' => 'The main characters of the novel are Florentino Ariza and Fermina Daza. Florentino and Fermina fall in love in their youth. A secret relationship blossoms between the two with the help of Fermina\'s Aunt Escolástica. They exchange love letters. But once Fermina\'s father, Lorenzo Daza, finds out about the two, he forces his daughter to stop seeing Florentino immediately. When she refuses, he and his daughter move in with his deceased wife\'s family in another city. Regardless of the distance, Fermina and Florentino continue to communicate via telegraph. Upon her return, Fermina realizes that her relationship with Florentino was nothing but a dream since they are practically strangers; she breaks off her engagement to Florentino and returns all his letters.
@@ -51,6 +55,7 @@ return [
         'id' => '5',
         'title' => 'The Metamorphosis',
         'author_id' => '3',
+        'isbn_code' => '9780393347098',
         'added_at' => '2024-01-30 09:00:00',
         'deleted_at' => null,
         'plot' => 'Gregor Samsa wakes up one morning to find himself transformed into a "monstrous vermin". He initially considers the transformation to be temporary and slowly ponders the consequences of this metamorphosis. Stuck on his back and unable to get up and leave the bed, Gregor reflects on his job as a traveling salesman and cloth merchant, which he characterizes as being full of "temporary and constantly changing human relationships, which never come from the heart". He sees his employer as a despot and would quickly quit his job if he were not his family\'s sole breadwinner and working off his bankrupt father\'s debts. While trying to move, Gregor finds that his office manager, the chief clerk, has shown up to check on him, indignant about Gregor\'s unexcused absence. Gregor attempts to communicate with both the manager and his family, but all they can hear from behind the door is incomprehensible vocalizations. Gregor laboriously drags himself across the floor and opens the door. The clerk, upon seeing the transformed Gregor, flees the apartment. Gregor\'s family is horrified, and his father drives him back into his room, injuring his side by shoving him when he gets stuck in the doorway.
@@ -62,6 +67,7 @@ return [
         'id' => '6',
         'title' => 'War and Peace',
         'author_id' => '4',
+        'isbn_code' => '9781400079988',
         'added_at' => '2024-01-30 09:00:00',
         'deleted_at' => null,
         'plot' => 'War and Peace begins in the Russian city of St. Petersburg in 1805, as fear of Napoleon’s ongoing war making begins to set in. Most of the characters are introduced at a party, including Pierre Bezukhov, Andrey Bolkonsky, and the Kuragin and Rostov families. Much of the novel focuses on the interactions between the Bezukhovs, Bolkonskys, and the Rostovs. After their introduction, Andrey Bolkonsky and Nikolay Rostov go to the Austrian front under General Kutuzov, a fictional representation of Mikhail Kutuzov, to engage with Napoleon’s troops. Andrey is then injured at the Battle of Austerlitz and presumed dead, until he arrives home to his wife, Lise, who dies during childbirth soon after. Pierre, meanwhile, has married Helene Kuragina. She is unfaithful to him, and Pierre duels with the other man, almost killing him. He soon becomes overwhelmed by his marriage and leaves Helene. He joins the Freemasons, which influences his personal and business fortunes greatly. In the meantime Nikolay has racked up a large amount of gambling debt, which causes the Rostov family to lose most of their fortune. He is encouraged to marry a wealthy heiress, despite promising to marry Sonya, his cousin. Nikolay eventually witnesses the peace between Tsar Alexander I and Napoleon (Treaties of Tilsit, signed in 1807). Andrey soon becomes involved with Natasha Rostov only to be told by his father that he must wait a year before marrying her. After some time away, Andrey discovers that Natasha has been unfaithful. He rejects her, and Pierre consoles her, eventually falling in love with her.
@@ -72,6 +78,7 @@ return [
         'id' => '7',
         'title' => 'Hamlet',
         'author_id' => '5',
+        'isbn_code' => '9780241319390',
         'added_at' => '2024-01-30 09:00:00',
         'deleted_at' => null,
         'plot' => 'Anna Karenina, novel by Leo Tolstoy, published in installments between 1875 and 1877 and considered one of the pinnacles of world literature.
