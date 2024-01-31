@@ -17,5 +17,7 @@ class UserBook extends Model
         'deleted_at',
     ];
 
+    public $timestamps = false;
+
     protected $table = 'user_book';
 }
