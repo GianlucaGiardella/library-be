@@ -9,9 +9,10 @@ class UserBook extends Model
 {
     use HasFactory;
 
-    protected $dates = [
+    protected $fillable = [
         'user_id',
         'book_id',
+        'readings',
         'added_at',
         'deleted_at',
     ];
