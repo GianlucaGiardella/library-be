@@ -14,10 +14,9 @@ class BookSeeder extends Seeder
             Book::create([
                 'id' => $book['id'],
                 'title' => $book['title'],
-                'author_id' => $book['author_id'],
+                'author' => $book['author'],
                 'isbn_code' => $book['isbn_code'],
                 'plot' => $book['plot'],
-                'readings' => $book['readings'],
             ]);
         }
     }

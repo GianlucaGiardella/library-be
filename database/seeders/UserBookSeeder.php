@@ -12,8 +12,10 @@ class UserBookSeeder extends Seeder
     {
         foreach (config('library.user_book') as $user_book) {
             UserBook::create([
+                'id' => $user_book['id'],
                 'user_id' => $user_book['user_id'],
                 'book_id' => $user_book['book_id'],
+                'readings' => $user_book['readings'],
                 'added_at' => $user_book['added_at'],
                 'deleted_at' => $user_book['deleted_at'],
             ]);
