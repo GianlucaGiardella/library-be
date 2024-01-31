@@ -11,10 +11,9 @@ return new class extends Migration
         Schema::create('books', function (Blueprint $table) {
             $table->id();
             $table->string('title', 80)->nullable(false);
-            $table->foreignId('author_id')->constrained()->cascadeOnDelete();
-            $table->char('isbn_code', 17)->unique()->nullable(false);
-            $table->text('plot');
-            $table->smallInteger('readings');
+            $table->string('author', 50)->nullable(false);
+            $table->char('isbn_code', 13)->unique()->nullable(false);
+            $table->text('plot')->nullable(false);;
             $table->timestamps();
         });
     }
