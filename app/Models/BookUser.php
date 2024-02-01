@@ -3,9 +3,9 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\Pivot;
 
-class UserBook extends Model
+class BookUser extends Pivot
 {
     use HasFactory;
 
@@ -19,5 +19,5 @@ class UserBook extends Model
 
     public $timestamps = false;
 
-    protected $table = 'user_book';
+    protected $table = 'book_user';
 }
