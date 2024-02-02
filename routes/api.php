@@ -20,3 +20,10 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::resource('books', BookController::class);
+Route::match(['post', 'update'], 'books/{id}', [BookController::class, 'add'])->name('books.add');
+
+Route::fallback(function () {
+    return response()->json([
+        'message' => 'Resource not found.'
+    ], 404);
+});

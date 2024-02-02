@@ -17,8 +17,8 @@ class Book extends Model
         'plot',
     ];
 
-    public function user()
+    public function users()
     {
-        return $this->belongsTo(User::class);
+        return $this->belongsToMany(User::class)->withPivot('readings');
     }
 }
