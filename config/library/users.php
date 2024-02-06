@@ -6,13 +6,13 @@ return [
         'name' => 'Tony',
         'last_name' => 'Stark',
         'email' => 'ironman@gmail.com',
-        'password' => 'agengers',
+        'password' => 'password',
     ],
     [
         'id' => '2',
         'name' => 'Gianluca',
         'last_name' => 'Giardella',
-        'email' => 'gianlugiarde@gmail.com',
+        'email' => 'gianlu@gmail.com',
         'password' => 'password',
     ],
 ];
